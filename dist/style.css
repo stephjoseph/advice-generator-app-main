@@ -470,14 +470,281 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
+.top-\[-999999px\]{
+  top: -999999px;
+}
+
+.left-\[-999999px\]{
+  left: -999999px;
+}
+
+.bottom-1{
+  bottom: 0.25rem;
+}
+
+.left-\[8\.688rem\]{
+  left: 8.688rem;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-\[7\.5rem\]{
+  margin-top: 7.5rem;
+}
+
+.mb-\[12\.5rem\]{
+  margin-bottom: 12.5rem;
+}
+
+.mt-\[-32px\]{
+  margin-top: -32px;
+}
+
+.-mt-8{
+  margin-top: -2rem;
+}
+
+.flex{
+  display: flex;
+}
+
 .grid{
   display: grid;
+}
+
+.hidden{
+  display: none;
+}
+
+.h-auto{
+  height: auto;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.w-\[21\.438rem\]{
+  width: 21.438rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-16{
+  width: 4rem;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .place-items-center{
   place-items: center;
 }
 
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.gap-6{
+  gap: 1.5rem;
+}
+
+.rounded-\[10px\]{
+  border-radius: 10px;
+}
+
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.bg-\[\#202733\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 39 51 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#313A48\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 58 72 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#53FFAA\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(83 255 170 / var(--tw-bg-opacity));
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.pb-16{
+  padding-bottom: 4rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
 .font-\[\'Manrope\'\]{
   font-family: 'Manrope';
+}
+
+.text-\[0\.688rem\]{
+  font-size: 0.688rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-extrabold{
+  font-weight: 800;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.leading-\[0\.938rem\]{
+  line-height: 0.938rem;
+}
+
+.leading-\[2\.063rem\]{
+  line-height: 2.063rem;
+}
+
+.tracking-\[3\.46px\]{
+  letter-spacing: 3.46px;
+}
+
+.tracking-\[-0\.26px\]{
+  letter-spacing: -0.26px;
+}
+
+.text-\[\#53FFAA\]{
+  --tw-text-opacity: 1;
+  color: rgb(83 255 170 / var(--tw-text-opacity));
+}
+
+.text-\[\#CEE3E9\]{
+  --tw-text-opacity: 1;
+  color: rgb(206 227 233 / var(--tw-text-opacity));
+}
+
+.shadow-\[30px_50px_80px_0px_rgba\(0\2c 0\2c 0\2c 0\.1002\)\]{
+  --tw-shadow: 30px 50px 80px 0px rgba(0,0,0,0.1002);
+  --tw-shadow-colored: 30px 50px 80px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.transition-shadow{
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300{
+  transition-duration: 300ms;
+}
+
+.duration-100{
+  transition-duration: 100ms;
+}
+
+.ease-in{
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.hover\:shadow-\[0px_0px_40px_0px_rgba\(83\2c 255\2c 170\2c 1\)\]:hover{
+  --tw-shadow: 0px 0px 40px 0px rgba(83,255,170,1);
+  --tw-shadow-colored: 0px 0px 40px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.active\:shadow-\[0px_0px_40px_0px_rgba\(83\2c 255\2c 170\2c 1\)\]:active{
+  --tw-shadow: 0px 0px 40px 0px rgba(83,255,170,1);
+  --tw-shadow-colored: 0px 0px 40px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 1280px){
+  .xl\:mt-\[13\.938rem\]{
+    margin-top: 13.938rem;
+  }
+
+  .xl\:block{
+    display: block;
+  }
+
+  .xl\:hidden{
+    display: none;
+  }
+
+  .xl\:w-\[33\.75rem\]{
+    width: 33.75rem;
+  }
+
+  .xl\:gap-10{
+    gap: 2.5rem;
+  }
+
+  .xl\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .xl\:pt-12{
+    padding-top: 3rem;
+  }
+
+  .xl\:pb-\[4\.5rem\]{
+    padding-bottom: 4.5rem;
+  }
+
+  .xl\:text-\[1\.75rem\]{
+    font-size: 1.75rem;
+  }
+
+  .xl\:text-\[0\.813rem\]{
+    font-size: 0.813rem;
+  }
+
+  .xl\:leading-\[2\.375rem\]{
+    line-height: 2.375rem;
+  }
+
+  .xl\:leading-\[1\.125rem\]{
+    line-height: 1.125rem;
+  }
+
+  .xl\:tracking-\[-0\.3px\]{
+    letter-spacing: -0.3px;
+  }
+
+  .xl\:tracking-\[4\.09px\]{
+    letter-spacing: 4.09px;
+  }
 }
