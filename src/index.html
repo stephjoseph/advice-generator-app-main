@@ -12,9 +12,52 @@
     <link rel="stylesheet" href="../dist/style.css" />
     <title>Frontend Mentor | Advice generator app</title>
   </head>
-  <body class="grid place-items-center font-['Manrope']">
-    Advice #<!-- Advice ID goes here -->
+  <body class="grid place-items-center bg-[#202733] font-['Manrope']">
+    <header class="absolute top-[-999999px] left-[-999999px]">
+      <h1>Advice Generator App</h1>
+    </header>
+    <main
+      class="mx-auto mt-[7.5rem] mb-[12.5rem] flex h-auto w-[21.438rem] flex-col items-center xl:mt-[13.938rem] xl:w-[33.75rem]"
+    >
+      <div
+        class="flex w-full flex-col items-center gap-6 rounded-[10px] bg-[#313A48] px-6 pb-16 pt-10 text-center shadow-[30px_50px_80px_0px_rgba(0,0,0,0.1002)] xl:gap-10 xl:px-12 xl:pb-[4.5rem] xl:pt-12"
+      >
+        <div class="flex flex-col items-center gap-6">
+          <p
+            class="text-[0.688rem] font-extrabold uppercase leading-[0.938rem] tracking-[3.46px] text-[#53FFAA] xl:text-[0.813rem] xl:leading-[1.125rem] xl:tracking-[4.09px]"
+          >
+            Advice #<span id="adviceID">117</span>
+          </p>
+          <p
+            id="advice"
+            class="text-2xl font-extrabold leading-[2.063rem] tracking-[-0.26px] text-[#CEE3E9] xl:text-[1.75rem] xl:leading-[2.375rem] xl:tracking-[-0.3px]"
+          >
+            “It is easy to sit up and take notice, what's difficult is getting
+            up and taking action.”
+          </p>
+        </div>
 
-    "<!-- Advice text goes here -->"
+        <div class="xl:hidden">
+          <img src="../images/pattern-divider-mobile.svg" alt="" />
+        </div>
+        <div class="hidden xl:block">
+          <img src="../images/pattern-divider-desktop.svg" alt="" />
+        </div>
+      </div>
+      <button
+        id="advice-button"
+        type="button"
+        aria-label="Get advice"
+        class="bottom-1 left-[8.688rem] -mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-[#53FFAA] transition-shadow duration-100 ease-in hover:shadow-[0px_0px_40px_0px_rgba(83,255,170,1)] active:shadow-[0px_0px_40px_0px_rgba(83,255,170,1)]"
+      >
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"
+            fill="#202733"
+          />
+        </svg>
+      </button>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
